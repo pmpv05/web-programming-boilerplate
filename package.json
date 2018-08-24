@@ -4,9 +4,11 @@
   "description": "Web Programming UCU",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint .",
+    "lint:js": "eslint .",
+    "lint:css": "stylelint **/*.css",
+    "lint": "npm run lint:js && npm run lint:css",
     "pretest": "npm run lint",
-    "test": "jest"
+    "test": "jest --passWithNoTests"
   },
   "repository": {
     "type": "git",
