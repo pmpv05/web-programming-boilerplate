@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  text-align: center;
+}
+
+header {
+  background-color: blue;
+  color: white;
+  position: fixed;
+  width: 100%;
+}
+
+.left {
+  width: 23%;
+  height: 50vw;
+  margin: 2em 1%;
+  background-color: red;
+  float: left;
+}
+
+.right {
+  width: 23%;
+  height: 50vw;
+  margin: 2em 1%;
+  background-color: red;
+  float: right;
+}
+
+section {
+  width: 50%;
+  height: 150vw;
+  margin: 2em 0;
+  background-color: black;
+  color: wheat;
+  display: inline-block;
+}
+
+footer {
+  background-color: blue;
+  color: white;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
